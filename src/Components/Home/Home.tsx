@@ -55,63 +55,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="wrapper row3">
-                <main className="container clear">
-                    <div className="home_group">
-                        <div className="one_half first">
-                            <h2 className="heading btmspace-50">Презентация</h2>
-                            <figure id="featuredpost">
-                                <figcaption>
-                                    <h2 className="heading">Видео-презентация</h2>
-                                    <p className="shortintro">
-                                       Как мы создавали красоту &hellip;
-                                    </p>
-                                    <p className="link">
-                                        <a className="btn" href="https://youtu.be/Vu7K78JLfg8" target="_blank" rel="noopener noreferrer">
-                                        Смотреть &raquo;
-                                        </a>
-                                    </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div className="one_half">
-                            <h2 className="heading btmspace-50">О команде</h2>
-                            <ul id="latestposts" className="nospace">
-                                <li className="clear">
-                                    <figure className="one_quarter first row3_1" />
-                                    <article className="three_quarter">
-                                        <h2 className="heading">Анатолий - Team Lead</h2>
-                                        <p className="shortintro">
-                                            Разработка и реализация логики игр &quot;Аудиовызов&quot; и
-                                            &quot;Спринт&quot;, регистрация, авторизация, словарь, статистика.
-                                        </p>
-                                    </article>
-                                </li>
-                                <li className="clear">
-                                    <figure className="one_quarter first row3_3" />
-                                    <article className="three_quarter">
-                                        <h2 className="heading">Дария</h2>
-                                        <p className="shortintro">
-                                            Главная страница, навигации по приложению, воссоедиение всех кусочков
-                                            проекта в одно целое, страница статистики.
-                                        </p>
-                                    </article>
-                                </li>
-                                <li className="clear">
-                                    <figure className="one_quarter first row3_2" />
-                                    <article className="three_quarter">
-                                        <h2 className="heading">Марина</h2>
-                                        <p className="shortintro">
-                                            Разработка дизайна, подбор стилей и добавление анимации.
-                                        </p>
-                                    </article>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="clear" />
-                </main>
-            </div>
             <Footer />
         </div>
     );
