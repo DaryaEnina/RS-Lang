@@ -1,6 +1,6 @@
 # RS-Lang web app for learning english words
 
-# Deploy : https://daryaenina.github.io/RS-Lang/index
+# Deploy : https://daryaenina.github.io/RS-Lang/
 
 # Description and development in the branch "develop"
 
