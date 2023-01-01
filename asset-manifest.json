@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/RS-Lang/static/css/main.8d708f6d.css",
-    "main.js": "/RS-Lang/static/js/main.5d581a7a.js",
-    "static/media/marina.jpg": "/RS-Lang/static/media/marina.eed7f4c3b9550d4109dc.jpg",
-    "static/media/background-auth.jpg": "/RS-Lang/static/media/background-auth.dfaa1c43bf0d9f5a0a87.jpg",
-    "static/media/IMG_20200409_121420.jpg": "/RS-Lang/static/media/IMG_20200409_121420.3f56fdfb16c37f18165b.jpg",
-    "static/media/book.png": "/RS-Lang/static/media/book.93655f1cd49e681592f3.png",
-    "static/media/1.png": "/RS-Lang/static/media/1.d5ed43be48d6c5efdd65.png",
-    "static/media/2.png": "/RS-Lang/static/media/2.fc113baaef53a1c45a4f.png",
-    "static/media/stats.png": "/RS-Lang/static/media/stats.51f9e7dbf473e9b330c9.png",
-    "static/media/Tolik.jpg": "/RS-Lang/static/media/Tolik.27982ecfec5a842186fc.jpg",
-    "static/media/games.png": "/RS-Lang/static/media/games.afac652e86b66158726a.png",
-    "static/media/row3.jpg": "/RS-Lang/static/media/row3.2560a3f6b00f35ffa135.jpg",
-    "static/media/background.jpg": "/RS-Lang/static/media/background.c8b1dfe33c6844436200.jpg",
-    "static/media/learn-english-online.webp": "/RS-Lang/static/media/learn-english-online.997fd9cbcdb88a4dfd37.webp",
-    "static/media/Arrow_Left.png": "/RS-Lang/static/media/Arrow_Left.18c1c099a20e6ed2ee28.png",
-    "static/media/rss.svg": "/RS-Lang/static/media/rss.66e800aacc5aaf68c358.svg",
-    "index.html": "/RS-Lang/index.html",
-    "main.8d708f6d.css.map": "/RS-Lang/static/css/main.8d708f6d.css.map",
-    "main.5d581a7a.js.map": "/RS-Lang/static/js/main.5d581a7a.js.map"
+    "main.css": "/RS-Lang/index.html/static/css/main.7d36b711.css",
+    "main.js": "/RS-Lang/index.html/static/js/main.fcd8883d.js",
+    "static/media/marina.jpg": "/RS-Lang/index.html/static/media/marina.eed7f4c3b9550d4109dc.jpg",
+    "static/media/background-auth.jpg": "/RS-Lang/index.html/static/media/background-auth.dfaa1c43bf0d9f5a0a87.jpg",
+    "static/media/IMG_20200409_121420.jpg": "/RS-Lang/index.html/static/media/IMG_20200409_121420.3f56fdfb16c37f18165b.jpg",
+    "static/media/book.png": "/RS-Lang/index.html/static/media/book.93655f1cd49e681592f3.png",
+    "static/media/1.png": "/RS-Lang/index.html/static/media/1.d5ed43be48d6c5efdd65.png",
+    "static/media/2.png": "/RS-Lang/index.html/static/media/2.fc113baaef53a1c45a4f.png",
+    "static/media/stats.png": "/RS-Lang/index.html/static/media/stats.51f9e7dbf473e9b330c9.png",
+    "static/media/Tolik.jpg": "/RS-Lang/index.html/static/media/Tolik.27982ecfec5a842186fc.jpg",
+    "static/media/games.png": "/RS-Lang/index.html/static/media/games.afac652e86b66158726a.png",
+    "static/media/row3.jpg": "/RS-Lang/index.html/static/media/row3.2560a3f6b00f35ffa135.jpg",
+    "static/media/background.jpg": "/RS-Lang/index.html/static/media/background.c8b1dfe33c6844436200.jpg",
+    "static/media/learn-english-online.webp": "/RS-Lang/index.html/static/media/learn-english-online.997fd9cbcdb88a4dfd37.webp",
+    "static/media/Arrow_Left.png": "/RS-Lang/index.html/static/media/Arrow_Left.18c1c099a20e6ed2ee28.png",
+    "static/media/rss.svg": "/RS-Lang/index.html/static/media/rss.66e800aacc5aaf68c358.svg",
+    "index.html": "/RS-Lang/index.html/index.html",
+    "main.7d36b711.css.map": "/RS-Lang/index.html/static/css/main.7d36b711.css.map",
+    "main.fcd8883d.js.map": "/RS-Lang/index.html/static/js/main.fcd8883d.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d708f6d.css",
-    "static/js/main.5d581a7a.js"
+    "static/css/main.7d36b711.css",
+    "static/js/main.fcd8883d.js"
   ]
 }
