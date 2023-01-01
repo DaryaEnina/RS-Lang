@@ -94,7 +94,7 @@ export type DataAggregatedWordsResponse = {
 };
 
 class Service {
-    private static baseUrl = 'https://learn-english-words-app.herokuapp.com';
+    private static baseUrl = 'https://rs-lang-be-hdo0.onrender.com';
 
     public static async createUser(data: DataUser): Promise<DataUserCreateResponse | undefined> {
         try {

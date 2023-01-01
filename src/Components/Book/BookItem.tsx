@@ -39,10 +39,10 @@ const DictionaryItem = ({ ...props }: DictionaryItemProps) => {
     const [totalInCorrect, setTotalInCorrect] = useState<number>(0);
     const [isShowStat, setIsShowStat] = useState<boolean>(false);
 
-    const imageUrl = `https://learn-english-words-app.herokuapp.com/${props.image}`;
-    const audioMeaningUrl = `https://learn-english-words-app.herokuapp.com/${props.audioMeaning}`;
-    const audioExampleUrl = `https://learn-english-words-app.herokuapp.com/${props.audioExample}`;
-    const audioUrl = `https://learn-english-words-app.herokuapp.com/${props.audio}`;
+    const imageUrl = `https://rs-lang-be-hdo0.onrender.com/${props.image}`;
+    const audioMeaningUrl = `https://rs-lang-be-hdo0.onrender.com/${props.audioMeaning}`;
+    const audioExampleUrl = `https://rs-lang-be-hdo0.onrender.com/${props.audioExample}`;
+    const audioUrl = `https://rs-lang-be-hdo0.onrender.com/${props.audio}`;
 
     const setWordParams = useCallback(async () => {
         if (isAuth) {

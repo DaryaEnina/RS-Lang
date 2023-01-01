@@ -39,11 +39,11 @@ const AudioGame = () => {
     const [menuActive, setMenuActive] = useState<boolean>(false);
     const [audioUrl, setAudioUrl] = useState<string>('');
     const [classResult, setClassResult] = useState<string>('');
-    let [learns] = useState<string| null>('');
+    let [learns] = useState<string | null>('');
 
     const getLocalStorage = () => {
         learns = localStorage.getItem('pageLearn');
-    }
+    };
 
     useEffect(() => {
         const token = localStorage.getItem('token') as string;
@@ -58,7 +58,7 @@ const AudioGame = () => {
 
     const handlerGroup = (event: React.MouseEvent) => {
         const { dataset } = event.target as HTMLDivElement;
-        
+
         if (!dataset.group) {
             return;
         }
@@ -71,7 +71,7 @@ const AudioGame = () => {
         let wordsPartial: DataWord[] = [];
 
         getLocalStorage();
-        if(learns === 'true') {
+        if (learns === 'true') {
             navigator(`/book/${group}/${page}/pageExplored`);
         }
 
@@ -154,8 +154,8 @@ const AudioGame = () => {
         let num: number = 0;
         const arr: DataWord[] = [];
         const generated: number[] = [];
-        const player = new Audio(`https://learn-english-words-app.herokuapp.com/${words[wordIndex].audio}`);
-        setAudioUrl(`https://learn-english-words-app.herokuapp.com/${words[wordIndex].audio}`);
+        const player = new Audio(`https://rs-lang-be-hdo0.onrender.com/${words[wordIndex].audio}`);
+        setAudioUrl(`https://rs-lang-be-hdo0.onrender.com/${words[wordIndex].audio}`);
         player.play();
         setClassName('');
         setIsNextDisabled(true);
@@ -403,7 +403,7 @@ const AudioGame = () => {
             });
 
             setIsDisabled(disabledArr);
-            setImgSrc(`https://learn-english-words-app.herokuapp.com/${correctWord?.image}`);
+            setImgSrc(`https://rs-lang-be-hdo0.onrender.com/${correctWord?.image}`);
             if (variantWordId === correctWordId) {
                 if (guessedWordsIDs.includes(variantWordId)) {
                     return;
@@ -472,7 +472,7 @@ const AudioGame = () => {
 
     const audioHandler = (event: React.MouseEvent) => {
         const { audio } = (event.target as HTMLElement).dataset;
-        const player = new Audio(`https://learn-english-words-app.herokuapp.com/${audio}`);
+        const player = new Audio(`https://rs-lang-be-hdo0.onrender.com/${audio}`);
 
         if (player.paused) {
             player.play();
