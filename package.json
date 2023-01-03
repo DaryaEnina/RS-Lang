@@ -32,7 +32,7 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
-    "homepage": "https://daryaenina.github.io/RS-Lang/",
+    "homepage": "https://daryaenina.github.io/RS-Lang/#",
     "eslintConfig": {
         "extends": [
             "react-app",
